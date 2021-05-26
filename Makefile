@@ -18,3 +18,5 @@ build_and_push_and_output_v1.12.0: _buildkit_create_use
 	--cache-to=bryanhuntesl/buildx-output-example:cache \
 	-o type=local,dest=./outdir \
 	.
+
+build_and_push_and_output: build_and_push_and_output_v1.11.0 build_and_push_and_output_v1.12.0	
