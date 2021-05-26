@@ -1,7 +1,5 @@
 FROM alpine:3.13.5 as builder
 
-
-
 WORKDIR /build
 
 RUN mkdir outputs
